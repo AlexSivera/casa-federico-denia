@@ -582,7 +582,7 @@ abbr[title] { text-decoration: none; cursor: help; }
 .fitxa li { display: grid; grid-template-columns: 16px 1fr; gap: 10px; }
 .fitxa li::before { content: ''; width: 7px; height: 7px; margin-top: .55em; background: var(--grabado); border-radius: 50%; }
 .fitxa li b { color: var(--tinta); font-weight: 600; }
-@media (max-width: 860px) { .costat { grid-template-columns: 1fr; } .modul iframe { height: 700px; } }
+@media (max-width: 860px) { .costat { grid-template-columns: 1fr; } .modul iframe { height: 590px; } }
 
 /* 404 */
 .error { min-height: 70vh; display: grid; place-items: center; text-align: center; padding: 60px var(--margen); }
