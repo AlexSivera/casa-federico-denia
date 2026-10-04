@@ -1,0 +1,8 @@
+node_modules/
+# Documentación interna de agencia (análisis de reseñas, competencia) e investigación: no se publica
+docs/
+research/
+# Originales de imagen (se regeneran con npm run images)
+_src/
+.playwright-mcp/
+.claude/

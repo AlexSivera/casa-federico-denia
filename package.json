@@ -1,0 +1,17 @@
+{
+  "name": "casa-federico-denia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Propuesta de web para Casa Federico · Restaurant Les Marines (Dénia). HTML/CSS/JS estático; las páginas se generan desde _plantillas/ con npm run build.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "images": "node scripts/images.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  },
+  "siteUrl": "https://alexsivera.github.io/casa-federico-denia"
+}
